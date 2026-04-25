@@ -1,0 +1,150 @@
+{
+  "system": {
+    "name": "FitCore Gestão de Academias",
+    "version": "1.0.0",
+    "currency": "BRL"
+  },
+  "transactions": [
+    {
+      "id": "trx-001",
+      "type": "entrada",
+      "description": "Mensalidades recebidas",
+      "category": "Receita recorrente",
+      "date": "2026-04-24",
+      "amount": 3850,
+      "paymentMethod": "PIX",
+      "note": "Pagamentos do turno da manhã"
+    },
+    {
+      "id": "trx-002",
+      "type": "saida",
+      "description": "Aluguel da unidade",
+      "category": "Despesas fixas",
+      "date": "2026-04-22",
+      "amount": 2100,
+      "paymentMethod": "Transferência",
+      "note": "Competência abril"
+    },
+    {
+      "id": "trx-003",
+      "type": "saida",
+      "description": "Manutenção de equipamentos",
+      "category": "Operacional",
+      "date": "2026-04-20",
+      "amount": 780,
+      "paymentMethod": "Cartão corporativo",
+      "note": "Troca de cabos e lubrificação"
+    },
+    {
+      "id": "trx-004",
+      "type": "entrada",
+      "description": "Venda de suplementos",
+      "category": "Receita adicional",
+      "date": "2026-04-18",
+      "amount": 640,
+      "paymentMethod": "Cartão",
+      "note": "Balcão da recepção"
+    },
+    {
+      "id": "trx-005",
+      "type": "saida",
+      "description": "Campanha de mídia paga",
+      "category": "Marketing",
+      "date": "2026-04-16",
+      "amount": 450,
+      "paymentMethod": "PIX",
+      "note": "Captação de novos alunos"
+    },
+    {
+      "id": "trx-006",
+      "type": "entrada",
+      "description": "Planos trimestrais",
+      "category": "Receita recorrente",
+      "date": "2026-04-14",
+      "amount": 2250,
+      "paymentMethod": "Boleto",
+      "note": "Renovações automáticas"
+    }
+  ],
+  "students": [
+    {
+      "id": "stu-001",
+      "name": "Carla Mendes",
+      "plan": "Mensal Premium",
+      "phone": "(11) 98888-1010",
+      "status": "Ativo",
+      "notes": "Treino funcional 3x por semana"
+    },
+    {
+      "id": "stu-002",
+      "name": "Rafael Souza",
+      "plan": "Trimestral",
+      "phone": "(11) 97777-2020",
+      "status": "Ativo",
+      "notes": "Avaliação física pendente"
+    },
+    {
+      "id": "stu-003",
+      "name": "Bianca Lima",
+      "plan": "Mensal Standard",
+      "phone": "(11) 96666-3030",
+      "status": "Pendente",
+      "notes": "Aguardando envio de atestado"
+    },
+    {
+      "id": "stu-004",
+      "name": "Marcelo Rocha",
+      "plan": "Anual",
+      "phone": "(11) 95555-4040",
+      "status": "Inativo",
+      "notes": "Retorno previsto para julho"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "fee-001",
+      "studentName": "Carla Mendes",
+      "plan": "Mensal Premium",
+      "amount": 189.9,
+      "dueDate": "2026-04-27",
+      "lastPayment": "2026-03-27",
+      "paid": false
+    },
+    {
+      "id": "fee-002",
+      "studentName": "Rafael Souza",
+      "plan": "Trimestral",
+      "amount": 480,
+      "dueDate": "2026-04-29",
+      "lastPayment": "2026-01-29",
+      "paid": false
+    },
+    {
+      "id": "fee-003",
+      "studentName": "Bianca Lima",
+      "plan": "Mensal Standard",
+      "amount": 149.9,
+      "dueDate": "2026-04-15",
+      "lastPayment": "2026-03-15",
+      "paid": false
+    },
+    {
+      "id": "fee-004",
+      "studentName": "Marcelo Rocha",
+      "plan": "Anual",
+      "amount": 1490,
+      "dueDate": "2026-05-10",
+      "lastPayment": "2025-05-10",
+      "paid": false
+    },
+    {
+      "id": "fee-005",
+      "studentName": "Juliana Costa",
+      "plan": "Mensal Fit",
+      "amount": 129.9,
+      "dueDate": "2026-04-12",
+      "lastPayment": "2026-03-12",
+      "paid": false
+    }
+  ]
+}
